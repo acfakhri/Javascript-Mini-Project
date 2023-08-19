@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1658128234026-77c9d8047e35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+}
+
+h2 {
+    font-style: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.jam {
+    display: flex;
+}
+
+.jam div {
+    margin: 5px;
+    position: relative;
+}
+
+.jam span {
+    width: 100px;
+    height: 80px;
+    background: grey;
+    opacity: .8;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(red, green, blue, alpha);
+}
+
+.jam .text {
+    height: 30px;
+    font-size: smaller;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: darkslategrey;
+    color: white;
+    opacity: 0.8;
+}
+
+.jam #wib {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: darkcyan;
+}
